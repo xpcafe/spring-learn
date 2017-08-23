@@ -1,7 +1,9 @@
-package com.xp.effective.chapter1.p13;
+package com.xp.effective.chapter1.p14;
 
 import com.xp.effective.chapter1.p12.Quest;
+import com.xp.effective.chapter1.p13.BraveKnight;
 import org.junit.Test;
+
 import static org.mockito.Mockito.*;
 
 public class BraveKnightTest {
