@@ -18,9 +18,14 @@ public class CDPlayTest {
     @Autowired
     private CompactDisc cd;
 
+
+    @Autowired
+    private CompactDisc cd1;
+
     @Test
     public void cdShouldNotBeNull(){
         cd.play();
+        System.out.println(cd+" "+cd1);
         Assert.assertNotNull(cd);
     }
 
