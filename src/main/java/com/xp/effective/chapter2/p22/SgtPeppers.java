@@ -1,13 +1,13 @@
 package com.xp.effective.chapter2.p22;
 
-import com.xp.effective.chapter2.p21.CompactDisc;
 import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
+
+import javax.inject.Named;
 
 /**
  * @author xp
  */
-@Component
+@Named
 @Scope("prototype")
 public class SgtPeppers implements CompactDisc {
 
@@ -17,5 +17,6 @@ public class SgtPeppers implements CompactDisc {
 
     public void play() {
         System.out.println("playing" + title + " by " + artist);
+        System.out.println(this);
     }
 }
