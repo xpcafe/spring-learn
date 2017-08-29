@@ -16,12 +16,12 @@ import org.springframework.context.annotation.Scope;
 public class CDPlayerConfig {
     @Bean
     @Scope("prototype")
-    public CompactDisc sgtPeppers(){
+    public CompactDisc sgtPeppers() {
         return new SgtPeppers();
     }
 
     @Bean
-    public MediaPlayer cdPlayer(){
+    public MediaPlayer cdPlayer() {
         return new CDPlayer(sgtPeppers());
     }
 }

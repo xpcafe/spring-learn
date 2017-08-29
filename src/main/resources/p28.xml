@@ -8,9 +8,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util.xsd">
-    <bean id="compactDisc" class="com.xp.effective.chapter2.p27.BlankDisc">
-        <constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band"></constructor-arg>
-        <constructor-arg value="The Beatles"></constructor-arg>
+    <bean id="compactDisc" class="com.xp.effective.chapter2.p27.BlankDisc" c:_0="Sgt. Pepper's Lonely Hearts Club Band" c:_1="The Beatles">
         <constructor-arg>
             <list>
                 <value>1</value>
@@ -32,5 +30,4 @@
             </set>
         </constructor-arg>
     </bean>
-
 </beans>
