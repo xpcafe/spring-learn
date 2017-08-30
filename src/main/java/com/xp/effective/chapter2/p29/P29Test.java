@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @author xp
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:p29.xml")
+@ContextConfiguration("classpath:c2/p29.xml")
 public class P29Test {
 
     @Autowired

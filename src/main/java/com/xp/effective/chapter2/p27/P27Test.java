@@ -19,7 +19,7 @@ public class P27Test {
 
     @Before
     public void init(){
-        context = new ClassPathXmlApplicationContext("p27.xml");
+        context = new ClassPathXmlApplicationContext("c2/p27.xml");
     }
 
     @Test

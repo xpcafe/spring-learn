@@ -16,7 +16,7 @@ public class P28ConfigTest {
 
     @Before
     public void init(){
-        context = new ClassPathXmlApplicationContext("p28.xml");
+        context = new ClassPathXmlApplicationContext("c2/p28.xml");
     }
 
     @Test
