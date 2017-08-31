@@ -15,7 +15,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class CakeTest {
 
     @Autowired
-    @Qualifier("iceCream")
     private Dessert dessert;
 
     @Autowired
