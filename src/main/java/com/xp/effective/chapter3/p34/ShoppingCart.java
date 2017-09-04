@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
  * @author xp
  */
 @Component
-@Scope(value = "session",proxyMode = ScopedProxyMode.INTERFACES)
+@Scope(value = "prototype",proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ShoppingCart {
 }
